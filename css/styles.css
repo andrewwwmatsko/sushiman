@@ -1,0 +1,169 @@
+/* Global styles */
+body {
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #121212;
+  background: #fff;
+  background: linear-gradient(to right, #b1454a 0 27%, #fff 27% 100%);
+}
+
+a {
+  text-decoration: none;
+  color: #121212;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+/* ======== */
+
+/* Header styles */
+
+.header {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #b1454a 0 27%, #fff 27% 100%);
+}
+
+.header-logo {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 54px;
+  padding-bottom: 37px;
+  opacity: 0.9;
+  margin-right: auto;
+}
+
+.header-navigation {
+}
+
+.header-menu {
+  display: flex;
+  gap: 64px;
+}
+
+.header-menu-item {
+  padding: 54px 0 37px 0;
+}
+
+.header-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* =============== */
+
+/* Main */
+
+/* Hero section*/
+
+.hero {
+}
+
+.hero-container {
+  background-image: linear-gradient(to right, #b1454a 0 27%, #fff 27% 100%);
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-image: url("../img/hero-img.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.hero-japaniese {
+  max-width: 540px;
+  position: relative;
+}
+
+.hero-hapan-text {
+  margin-top: 15px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: normal;
+  writing-mode: vertical-lr;
+  margin: 0;
+}
+
+.hero-title {
+  max-width: 723px;
+  font-family: "Playfair Display";
+  font-size: 88px;
+  font-weight: 600;
+  line-height: 1.23;
+  margin-bottom: 32px;
+}
+.hero-text {
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  line-height: 2; /* 36px */
+  letter-spacing: -0.18px;
+  max-width: 631px;
+  opacity: 0.8;
+  margin-bottom: 41px;
+}
+.hero-order-btn {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #121212;
+  padding: 20px 58px;
+  border-radius: 50px;
+  border: none;
+}
+
+.how-order {
+  color: #020202;
+}
+
+.how-order::before {
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-color: transparent;
+  border: lightgrey;
+  border-radius: 50%;
+}
+
+/* =============== */
