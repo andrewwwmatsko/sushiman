@@ -98,7 +98,7 @@ p {
 /* Hero section*/
 
 .hero {
-  background: linear-gradient(to right, #b1454a 49%, #fff 50%);
+  background: linear-gradient(to right, #b1454a 49%, #fff 50% 80%, #b1454a 80%);
 }
 
 .hero-container {
@@ -106,17 +106,39 @@ p {
   flex-direction: column;
   justify-content: center;
   background-color: #b1454a;
+  position: relative;
+}
 
+.hero-background-sushi {
   background-image: url("../img/hero-background-sushi.png");
   background-position: left;
   background-repeat: no-repeat;
-  position: relative;
+  width: 596px;
+  height: 580px;
+  position: absolute;
+  left: 0;
+  z-index: 999;
+}
+
+.hero-background-text {
+  color: #fff;
+  opacity: 0.04;
+  font-family: Arial;
+  font-size: 240px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transform: rotate(90deg);
+  writing-mode: vertical-lr;
+  position: absolute;
+  top: -178px;
+  left: -74px;
 }
 
 .hero-japaniese {
   position: absolute;
-  top: 325px;
-  left: 0;
+  top: 366px;
+  left: 80px;
 }
 
 .hero-japan-text {
@@ -252,4 +274,71 @@ p {
   max-width: 242px;
 }
 
+/* =============== */
+
+/* About-us */
+.about-us {
+  background: linear-gradient(to right, #fff0de 49%, #fff 50%);
+}
+
+.about-us-container {
+  display: flex;
+  justify-content: space-around;
+  /* background: #fff0de; */
+  background: linear-gradient(to right, #fff0de 49%, #fff 50%);
+}
+
+.about-us-background {
+}
+
+.about-us-top {
+  background: #fff0de;
+  max-width: 540px;
+  padding-top: 27px;
+  padding-bottom: 57px;
+}
+
+.about-us-text-top {
+  color: #b1454a;
+  font-family: Arial;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.1;
+  writing-mode: vertical-lr;
+  position: relative;
+  left: 150px;
+}
+
+.about-us-main {
+  padding: 147px 0;
+  padding-left: 100px;
+  background: #fff;
+}
+
+.about-us-japan-text {
+  color: #b1454a;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: -0.01em;
+  opacity: 0.8;
+  margin-bottom: 16px;
+}
+
+.about-us-title {
+  color: #121212;
+  font-family: "Playfair Display";
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 140%;
+  max-width: 702px;
+  margin-bottom: 32px;
+}
+.about-us-text {
+  color: #121212;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: -0.01em;
+  max-width: 608px;
+}
 /* =============== */
