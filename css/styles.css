@@ -98,7 +98,7 @@ p {
 /* Hero section*/
 
 .hero {
-  background: linear-gradient(to right, #b1454a 49%, #fff 50% 80%, #b1454a 80%);
+  /* background: linear-gradient(to right, #b1454a 49%, #fff 50% 80%, #b1454a 80%); */
 }
 
 .hero-container {
@@ -277,54 +277,85 @@ p {
 /* =============== */
 
 /* About-us */
-.about-us {
-  background: linear-gradient(to right, #fff0de 49%, #fff 50%);
-}
 
-.about-us-container {
+.container-about-us {
   display: flex;
-  justify-content: space-around;
-  /* background: #fff0de; */
-  background: linear-gradient(to right, #fff0de 49%, #fff 50%);
 }
-
-.about-us-background {
+.about-us-images {
+  position: relative;
 }
 
 .about-us-top {
-  background: #fff0de;
-  max-width: 540px;
-  padding-top: 27px;
-  padding-bottom: 57px;
+  position: relative;
+  right: 80px;
+  width: 540px;
+  height: 356px;
+  background-color: #fff0de;
+  background-image: url("../img/about-us-top.png");
+  background-repeat: no-repeat;
+  background-position: 80px;
+  margin-bottom: 8px;
 }
-
-.about-us-text-top {
+.about-us-text {
   color: #b1454a;
+  opacity: 0.1;
   font-family: Arial;
   font-size: 120px;
   font-weight: 700;
-  line-height: normal;
-  opacity: 0.1;
   writing-mode: vertical-lr;
+  line-height: normal;
+  position: absolute;
+  right: 30px;
+  top: 27px;
+}
+
+.about-us-learn {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  top: 328px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #121212;
+  width: 200px;
+  height: 64px;
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
+}
+
+.about-us-learn-link {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.about-us-bottom {
+  width: 540px;
+  height: 356px;
+  background: #fff0de;
+  background-image: url("../img/about-us-bottom.png");
+  background-repeat: no-repeat;
+  background-position: 80px;
   position: relative;
-  left: 150px;
+  right: 80px;
 }
-
 .about-us-main {
-  padding: 147px 0;
-  padding-left: 100px;
-  background: #fff;
+  padding-top: 147px;
+  padding-left: 20px;
 }
 
-.about-us-japan-text {
+.about-us-main-text {
   color: #b1454a;
+  font-family: "Plus Jakarta Sans";
   font-size: 18px;
   line-height: 200%;
   letter-spacing: -0.01em;
-  opacity: 0.8;
   margin-bottom: 16px;
+  opacity: 0.8;
 }
-
 .about-us-title {
   color: #121212;
   font-family: "Playfair Display";
@@ -334,11 +365,11 @@ p {
   max-width: 702px;
   margin-bottom: 32px;
 }
-.about-us-text {
+.about-us-description {
   color: #121212;
+  font-family: "Plus Jakarta Sans";
   font-size: 18px;
   line-height: 200%;
   letter-spacing: -0.01em;
-  max-width: 608px;
 }
 /* =============== */
