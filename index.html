@@ -27,16 +27,16 @@
         <nav class="header-navigation">
           <ul class="header-menu">
             <li class="header-menu-item">
-              <a class="header-link" href="./index.html">Menu</a>
+              <a class="header-link" href="#food">Menu</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-link" href="./index.html">Foods</a>
+              <a class="header-link" href="./index.html">Food</a>
             </li>
             <li class="header-menu-item">
               <a class="header-link" href="./index.html">Services</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-link" href="./index.html">About us</a>
+              <a class="header-link" href="#about-us">About us</a>
             </li>
             <li class="header-menu-item">search</li>
           </ul>
@@ -55,11 +55,11 @@
           </div>
           <div class="second-part">
             <div class="hero-feel">
-              <h1 class="hero-title">Feel the taste of Japanese foods</h1>
+              <h1 class="hero-title">Feel the taste of Japanese food</h1>
 
               <div class="hero-group">
                 <p class="hero-text">
-                  Feel the taste of most populars Japanese foods from anywhere
+                  Feel the taste of most populars Japanese food from anywhere
                   and anytime.
                 </p>
                 <div class="hero-btn-group">
@@ -81,8 +81,8 @@
                 class="hero-comment-img"
                 src="./img/customer.png"
                 alt="A woman on a blue background"
-                width="48px"
-                height="48px"
+                width="48"
+                height="48"
               />
               <p class="hero-comment-text">
                 “This is the best Japanese food delivery service that ever
@@ -92,17 +92,17 @@
           </div>
         </div>
       </section>
-      <section class="about-us">
+      <section class="about-us" id="about-us">
         <div class="container container-about-us">
           <div class="about-us-images">
             <div class="about-us-top">
               <span class="about-us-text">ツ ナ</span>
-              <div class="about-us-learn">
-                <a class="about-us-learn-link" href="">Learn More</a>
-                <svg class="about-us-arrow-icon" width="24px" height="24px">
+              <a class="about-us-learn-link" href=""
+                >Learn More
+                <svg class="about-us-arrow-icon" width="24" height="24">
                   <use href="./img/symbol-defs.svg#icon-arrow-up-right"></use>
                 </svg>
-              </div>
+              </a>
             </div>
             <div class="about-us-bottom">
               <span class="about-us-text">エ ビ</span>
@@ -119,6 +119,140 @@
               our customers.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section class="popular-food" id="food">
+        <div class="container popular-food-container">
+          <p class="popular-food-background-text top">日 本</p>
+          <h2 class="popular-food-title">Popular Food / 人気</h2>
+          <ul class="popular-food-scrollbar-list">
+            <li class="popular-food-scrollbar-item">
+              <a class="popular-food-scrollbar-link" href="">All</a>
+            </li>
+            <li class="popular-food-scrollbar-item">
+              <a class="popular-food-scrollbar-link" href="">
+                <svg width="43" height="32">
+                  <use href="./img/symbol-defs.svg#icon-sushi-icon"></use>
+                </svg>
+                Sushi
+              </a>
+            </li>
+            <li class="popular-food-scrollbar-item">
+              <a class="popular-food-scrollbar-link" href="">
+                <svg width="51" height="30">
+                  <use href="./img/symbol-defs.svg#icon-ramen-icon"></use>
+                </svg>
+                Ramen</a
+              >
+            </li>
+            <li class="popular-food-scrollbar-item">
+              <a class="popular-food-scrollbar-link" href="">
+                <svg width="42" height="32">
+                  <use href="./img/symbol-defs.svg#icon-udon-icon"></use>
+                </svg>
+                Udon</a
+              >
+            </li>
+            <li class="popular-food-scrollbar-item">
+              <a class="popular-food-scrollbar-link" href="">
+                <svg width="42" height="32">
+                  <use href="./img/symbol-defs.svg#icon-danggo"></use>
+                </svg>
+                Danggo</a
+              >
+            </li>
+            <li class="popular-food-scrollbar-item">
+              <a class="popular-food-scrollbar-link" href="">Others</a>
+            </li>
+          </ul>
+
+          <div class="popular-food-carrousel">
+            <button type="button" class="carrousel-btn">
+              <svg width="33" height="33">
+                <use href="./img/symbol-defs.svg#icon-previous-arrow"></use>
+              </svg>
+            </button>
+
+            <ul class="carrousel-wrapper">
+              <li class="carrousel-item">
+                <img
+                  class="carrousel-image"
+                  src="./img/chezu_sushi.png"
+                  alt="A sushi with cheese on top"
+                />
+                <div class="carrousel-item-info">
+                  <h3 class="carrousel-item-title">Chezu Sushi</h3>
+                  <div class="carrousel-item-stats">
+                    <span class="carrousel-item-rating">
+                      <svg width="24" height="24">
+                        <use href="./img/symbol-defs.svg#icon-star"></use>
+                      </svg>
+                      4.7
+                    </span>
+                    <span class="carrousel-item-price"> $16.00 </span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="carrousel-item is-selected-item">
+                <img
+                  class="carrousel-image"
+                  src="./img/original_sushi.png"
+                  alt="A sushi roll with salmon on top"
+                />
+                <div class="carrousel-item-info">
+                  <h3 class="carrousel-item-title is-selected-title">
+                    Originale Sushi
+                  </h3>
+                  <div class="carrousel-item-stats is-selected-stats">
+                    <span class="carrousel-item-rating is-selected-rating">
+                      <svg width="24" height="24">
+                        <use href="./img/symbol-defs.svg#icon-star"></use>
+                      </svg>
+                      4.8
+                    </span>
+                    <span class="carrousel-item-price is-selected-price"
+                      >$21.00</span
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li class="carrousel-item">
+                <img
+                  class="carrousel-image"
+                  src="./img/ramen_legendo.png"
+                  alt="A bowl of ramen"
+                />
+                <div class="carrousel-item-info">
+                  <h3 class="carrousel-item-title">Ramen Legendo</h3>
+                  <div class="carrousel-item-stats">
+                    <span class="carrousel-item-rating">
+                      <svg width="24" height="24">
+                        <use href="./img/symbol-defs.svg#icon-star"></use>
+                      </svg>
+                      4.7
+                    </span>
+                    <span class="carrousel-item-price">$16.00</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <button type="button" class="carrousel-btn">
+              <svg width="33" height="33">
+                <use href="./img/symbol-defs.svg#icon-next-arrow"></use>
+              </svg>
+            </button>
+          </div>
+          <button type="button" class="explore-food-btn">
+            Explore Food
+            <svg width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+          <p class="popular-food-background-text bottom">本 食</p>
         </div>
       </section>
     </main>
