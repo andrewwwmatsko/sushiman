@@ -632,3 +632,79 @@ p {
 }
 
 /* =============== */
+
+/* What's trending  */
+
+.japanese-sushi {
+  padding-top: 135px;
+  max-width: 720px;
+  padding-bottom: 139px;
+}
+.trending-sushi-text {
+  color: #b1454a;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: -0.01em;
+  opacity: 0.8;
+  margin-bottom: 16px;
+}
+.trending-sushi-title {
+  color: #121212;
+  font-family: "Playfair Display";
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 32px;
+  max-width: 435px;
+}
+.trending-sushi-description {
+  color: #121212;
+  line-height: 200%;
+  letter-spacing: -0.01em;
+  opacity: 0.8;
+  margin-bottom: 32px;
+  max-width: 508px;
+}
+.japanese-sushi-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 110px;
+  align-items: center;
+}
+.japanese-sushi-item {
+  width: calc((100% - 110px) / 2);
+  display: flex;
+  align-items: center;
+}
+
+.japanese-sushi-item p {
+  color: #121211;
+  font-weight: 500;
+  line-height: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.japanese-sushi-card {
+  width: 720px;
+  height: 640px;
+  background-image: url("../img/japanese-sushi-card.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.japanese-drinks {
+}
+
+.fa-check {
+  color: white;
+  background-color: #b1454a;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+/* =============== */
