@@ -28,21 +28,21 @@
       <div class="container header-container">
         <a class="header-logo" href="./index.html">SUSHIMAN</a>
 
-        <nav class="header-navigation">
-          <ul class="header-menu">
-            <li class="header-menu-item">
-              <a class="header-link" href="#food">Menu</a>
+        <nav class="navigation">
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="link" href="#menu">Menu</a>
             </li>
-            <li class="header-menu-item">
-              <a class="header-link" href="./index.html">Food</a>
+            <li class="menu-item">
+              <a class="link" href="#food">Food</a>
             </li>
-            <li class="header-menu-item">
-              <a class="header-link" href="./index.html">Services</a>
+            <li class="menu-item">
+              <a class="link" href="#offers">Services</a>
             </li>
-            <li class="header-menu-item">
-              <a class="header-link" href="#about-us">About us</a>
+            <li class="menu-item">
+              <a class="link" href="#about-us">About us</a>
             </li>
-            <li class="header-menu-item">search</li>
+            <li class="menu-item">search</li>
           </ul>
         </nav>
       </div>
@@ -126,7 +126,7 @@
         </div>
       </section>
 
-      <section class="popular-food" id="food">
+      <section class="popular-food" id="menu">
         <div class="container popular-food-container">
           <p class="popular-food-background-text top">日 本</p>
           <h2 class="popular-food-title">Popular Food / 人気</h2>
@@ -260,7 +260,7 @@
         </div>
       </section>
 
-      <section class="trending">
+      <section class="trending" id="food">
         <div class="container">
           <div class="japanese-sushi">
             <div class="japanese-sushi-text-wrapper">
@@ -416,7 +416,74 @@
           </div>
         </div>
       </section>
+
+      <section class="offers" id="offers">
+        <div class="container">
+          <h2 class="offers-title">Get offers straight to your inbox</h2>
+
+          <p class="offers-description">Sign up for the Sushiman newsletter.</p>
+
+          <div class="input-wrapper">
+            <input
+              type="text"
+              class="offers-email"
+              name="email"
+              placeholder="Enter email address"
+            />
+            <button type="button" class="get-started-btn">Get Started</button>
+          </div>
+          <p class="offer-left-text">司エナ</p>
+          <p class="offer-right-text">日本食</p>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="footer-logo">
+          <span class="footer-logo-red">Sushi</span>man
+        </a>
+
+        <nav class="footer-nav navigation">
+          <ul class="footer-menu menu">
+            <li class="menu-item">
+              <a class="link" href="#food">Menu</a>
+            </li>
+            <li class="menu-item">
+              <a class="link" href="./index.html">Food</a>
+            </li>
+            <li class="menu-item">
+              <a class="link" href="./index.html">Services</a>
+            </li>
+            <li class="menu-item">
+              <a class="link" href="#about-us">About us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="social-list">
+          <li class="social-media">
+            <a href="https://www.facebook.com/" target="_blank">
+              <svg class="facebook-icon">
+                <use href="./img/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media">
+            <a href="https://x.com/" target="_blank">
+              <svg class="twitter-icon">
+                <use href="./img/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media">
+            <a href="https://www.instagram.com/" target="_blank">
+              <svg class="instagram-icon">
+                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
