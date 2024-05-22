@@ -1,2 +1,2 @@
 # Sushiman
-This is a website for a Sushiman restaurant
+This is website was created using HTML5 and CSS3.
